@@ -1,0 +1,123 @@
+html, body {
+    background-color: #46BE86;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+ }
+ 
+ .font-weight-bold {
+    font-weight: bold;
+ }
+ 
+ .custom-card {
+    background-color: #007C30;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+ }
+ 
+ .custom-card input, .custom-card button {
+    margin-bottom: 10px;
+ }
+ 
+ .custom-card label {
+    font-size: 18px;
+    font-weight: bold;
+ }
+ 
+ .custom-card input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }
+ 
+ .custom-card button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ 
+ .custom-card button#botaoInserir {
+    background-color: #B8B5B5;
+    color: black;
+    margin-top: 10px;
+ }
+ 
+ .custom-card button#botaoExcluir {
+    background-color: #b50000;
+    color: white;
+ }
+ 
+ .custom-card button#botaoCompartilhar {
+    background-color: #4CAF50;
+    color: white;
+ }
+ 
+ .tabela-container {
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 20px 0;
+ }
+ 
+ .tabela-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+ }
+ 
+ .tabela-container th, .tabela-container td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+ }
+ 
+ .tabela-container th {
+    background-color: #007C30;
+    color: white;
+ }
+ 
+ .tabela-container tbody tr:hover {
+    background-color: #f1f1f1;
+ }
+ 
+ .maiusculoCentro {
+    text-transform: uppercase;
+    text-align: center;
+ }
+ 
+ #alerta {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+ }
+ 
+ #appNameData {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+ }
+ 
+ footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+ }
+ 
+ /* Estilos para a lista de arquivos */
+ .arquivo-item {
+    margin: 5px 0;
+ }
+ .arquivo-item button {
+    margin-left: 5px;
+ }
+ 
